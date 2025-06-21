@@ -1,13 +1,9 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="flex flex-center bg-grey-1" style="min-height: 100vh">
+    <currency-converter />
   </q-page>
 </template>
 
 <script setup>
-//
+import CurrencyConverter from 'components/CurrencyConverter.vue'
 </script>
